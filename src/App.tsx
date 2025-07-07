@@ -15,7 +15,7 @@ import ReportsList from './components/Reports/ReportsList';
 const AppContent: React.FC = () => {
   const { user, isLoading } = useAuth();
   const [activeTab, setActiveTab] = useState('dashboard');
-
+//teste
   if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
